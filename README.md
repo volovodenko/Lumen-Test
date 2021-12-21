@@ -1,13 +1,14 @@
-## Run the project
-
-composer install
-copy .env.example to .env
-set APP_KEY in .env
-php artisan jwt:secret
-php artisan migration:run
-php artisan db:seed
-
 ## Description
 
 Test Lumen
 
+## Run the project
+
+composer install<br />
+copy .env.example to .env<br />
+set APP_KEY in .env<br />
+set DB variables in .env<br />
+set MAIL variables in .env<br />
+php artisan jwt:secret<br />
+php artisan migration:run<br />
+php artisan db:seed<br />
